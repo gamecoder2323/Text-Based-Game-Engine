@@ -4,11 +4,7 @@
 #include <iostream>
 #include "Interactables.h"
 
-
-//Note to self: 'Sub Areas' as they will be called, will be regular areas made in a different array than 'maps' that will be a 1-D array.
-
-
-//INSTRUCTIONS: IF YOU ARE GOING TO USE THIS AARON, PLEASE READ! THIS IS A REFERENCE GUIDE.
+//INSTRUCTIONS:
 //
 //To create a new Area, first you give a new interactable to an area. You go to initAreas to do this, then you give the item a hint. From there, you create an areaSetup.
 //In the areaSetup, you specify the (x, y) coordinates and give it a name, and a description of it when there aren't any interacts there.
@@ -24,11 +20,11 @@
 //If you wish to make a new item, follow the same steps as you would an interactable, except every time you see 'interactable' replace it with 'Inventory' (Names included)
 //
 //
-//To create a new property, click on Area.h and make a new name for it. Be sure to capitalize the property though!
+//To create a new property, click on Area.h and make a new name for it.
 //
 //
 //I have placed all the tools you will need to use near the top. This is the basic engine. All that I'll be doing now is expanding it, and adding new features.
-//Add any recommendations at the bottom of this program, in a comment. :)
+
 
 
 
@@ -125,6 +121,23 @@ void Game::initInventory() {
 
 
 //End of Game setup
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
